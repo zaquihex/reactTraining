@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.demoDiv {
+  background-color: purple;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
