@@ -1,9 +1,33 @@
+
+html, body, #root, #main {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  color: white;
+  background-color: #231f20;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  text-decoration: underline;
+  border-bottom: 10px solid orange;
+}
+
+
+
+
+.headerStrong {
+  font-weight: bolder;
+}
+
 .App {
   text-align: center;
 }
 
 .demoDiv {
-  background-color: purple;
 }
 
 .App-logo {

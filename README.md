@@ -14,3 +14,31 @@ IMPORTANTE -> EL RETURN SOLO DEVOLVERÁ UN SOLO/UNICO ELEMENTO.
 <p></p> -> textos largos
 <a /> links
 <img /> imagenes
+
+w3school - mucha info
+
+
+----------
+Variables
+1º constante -> const usuario = "David";
+2º puede cambiar -> let usuario = "David";
+texto -> const variable = "texto"
+numero -> const variable = 42
+lista -> const variable = [1,"holi",46,"david"]
+
+//Condicionales
+const permisoCrear = "si";
+if() {
+} else {}
+
+
+-------
+Lenguages
+-> html (jsx), javascript
+-> estilos: css, scss, sass
+
+Librerias
+-> React
+-> Angular (javascript + html )
+
+
