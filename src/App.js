@@ -1,10 +1,7 @@
 import React from 'react';
 import logo from './assets/logo.svg';
 import './App.css';
-
-function crearUsuario() {
-
-}
+import Contador from "./containers/Contador";
 
 function App() {
   let mensaje = "usuario básico";
@@ -23,6 +20,7 @@ function App() {
             <span>is now a part of &nbsp;</span>
             <span className="headerStrong">Github</span>
         </a>
+          <Contador />
   </div>);
 }
 

@@ -25,6 +25,7 @@ Variables
 texto -> const variable = "texto"
 numero -> const variable = 42
 lista -> const variable = [1,"holi",46,"david"]
+objeto -> const variable = {texto: "hola", numero: 3}
 
 //Condicionales
 const permisoCrear = "si";
