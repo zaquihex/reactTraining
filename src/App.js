@@ -2,16 +2,9 @@ import React from 'react';
 import logo from './assets/logo.svg';
 import './App.css';
 import Contador from "./containers/Contador";
+import { ButtonGeneral } from './components/Buttons';
 
 function App() {
-  let mensaje = "usuario básico";
-
-
-  const esAdmin= "si";
-
-  if(esAdmin === "si") {
-    mensaje = "   is now a part of    ";
-  }
 
   return (
       <div id="main">
