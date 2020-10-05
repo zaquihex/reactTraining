@@ -36,6 +36,21 @@ const permisoCrear = "si";
 if() {
 } else {}
 
+switch(elemento) {
+ case valor: lo que quieras hacer; break;
+ default: lo que quiera por defecto;
+}
+
+// Bucles
+lista.map((valor)=>{
+return ...
+})
+
+["uno","dos",3].map((valor)=>{
+return valor;
+})
+
+
 
 -------
 Lenguages
