@@ -21,11 +21,15 @@ w3school - mucha info
 ----------
 Variables
 1º constante -> const usuario = "David";
-2º puede cambiar -> let usuario = "David";
+2º puede cambiar -> let (crea una variable que puedess volver a ponerle un valor) usuario = "David";
 texto -> const variable = "texto"
 numero -> const variable = 42
-lista -> const variable = [1,"holi",46,"david"]
-objeto -> const variable = {texto: "hola", numero: 3}
+lista -> const colores = ["naranja", "rojo"]
+objeto (conjunto de variables) -> const persona = {nombre: "david", altura: 175}
+        -> persona.nombre = david
+        -> persona.altura = 175
+
+debugger -> pausa la ejecución en consola en la web, tiene que estar la consola para que se pare. F12/boton derecho inspeccionar
 
 //Condicionales
 const permisoCrear = "si";
