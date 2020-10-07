@@ -15,7 +15,7 @@ class Contador extends Component {
     }
 
     // Función sumar para cambiar el estado
-    sumar = () => {
+    sumar = (numero) => {
         let usuario;
         if(this.state.text === "david"){
             usuario = "alejandro";
@@ -23,6 +23,7 @@ class Contador extends Component {
         else{
             usuario = "david";
         }
+
         this.setState({numero: this.state.numero + 2, text: usuario});
     }
 
